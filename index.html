@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+
+    
+
+</head>
+
+
+<body>
+    <!-- navbar -->
+    
+
+
+    <nav class="navbar">
+        <h1 class="logo">DELICIOUS</h1>
+        <ul class="nav-links">
+
+            <li class="active"><a href="">Home</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#gal-container">Gallery</a></li>
+            <!-- <li><a href="">About</a></li> -->
+            <li class="btn"><a href="#contact">Contact</a></li>
+        </ul>
+        <img src="./images/bars-solid.svg" class="menu-btn" alt="no img">
+
+    </nav>
+    
+    
+    <header>
+        <div class="header-content">
+            <h2> Love To Explore The Secret Food</h2>
+            <div class="line"></div>
+            <h1>WONDERFUL GIFT</h1>
+            <a href="https://img.freepik.com/free-vector/gradient-indian-menu-template_52683-82332.jpg" download="https://img.freepik.com/free-vector/gradient-indian-menu-template_52683-82332.jpg" class="btn">Learn More</a>
+
+        </div>
+
+    </header>
+    <!-- section2 -->
+    <section class="menu" id="menu">
+
+        <div class="title">
+            <h1>Daily Specials</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="https://www.butter-n-thyme.com/wp-content/uploads/2023/03/Bismark-Pizza.jpg" class="img1" alt="no img">
+                <h4>BISMARK PIZZA</h4>
+                <p>Rs.229/-</p>
+                <a href="https://i.stack.imgur.com/O6PbK.png" class="btn1">Buy</a>
+            </div>
+            <div class="col">
+                <img src="https://t3.ftcdn.net/jpg/02/55/42/50/360_F_255425068_CyDrGsVcu1Bl2SdJ2yXx35Rlp8jyNCCQ.jpg" class="img2" alt="no img">
+                <h4>SHAWARMA</h4>
+                <p>Rs.199/-</p>
+                <a href="https://i.stack.imgur.com/O6PbK.png" class="btn1">Buy</a>
+            </div>
+            <div class="col">
+                <img src="https://d1ralsognjng37.cloudfront.net/f4bd454e-45b6-459b-8366-f7d7ea636d32.jpeg" class="img3" alt="no img">
+                <h4>ALPHAM</h4>
+                <p>Rs.329/-</p>
+                <a href="https://i.stack.imgur.com/O6PbK.png" class="btn1">Buy</a>
+            </div>
+
+        </div>
+        </section>
+        <section class="explore" id="explore">
+            <div class="explore-content">
+                <h1>Explore The Food</h1>
+            <p>“If more of us valued food and cheer and song above hoarded gold, it would be a merrier world.”</p>
+
+            </div>
+
+            
+        </section>
+        <section class="gal-container" id="gal-container">
+            <div class="gallery">
+                <h2>Gallery</h2>
+                <div class="line2"></div>
+                
+            </div>
+            <div class="row1">
+                <div class="img-col">
+                    <img src="https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?auto=compress&cs=tinysrgb&w=600" class="gal-img1" alt="no img">
+
+                </div>
+                <div class="img-col">
+                    <img src="https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&w=600" class="gal-img2" alt="no img">
+
+                </div>
+                <div class="img-col">
+                    <img src="https://img.freepik.com/premium-photo/plate-food-with-sign-that-says-noodle-it_865967-39110.jpg" class="gal-img3" alt="no img">
+
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="contact-title">
+                <h2>
+                    Contact Us
+                </h2>
+                <div class="iconDiv">
+                    <div class="icon">
+                        <a href="https://www.instagram.com/accounts/login/"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+    
+    
+                    <!-- icon2 -->
+                    <div class="icon">
+                        <a href="https://www.linkedin.com/login"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <div class="icon">
+                        <a href="https://twitter.com/i/flow/login"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+            </div>
+
+        </section>
+        
+
+    <script>
+        const menubtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+        menubtn.addEventListener('click', () => {
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+
+</body>
+
+</html>

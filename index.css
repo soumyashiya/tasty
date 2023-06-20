@@ -1,0 +1,353 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-image:url(https://wallpaperaccess.com/full/271687.jpg);
+    background-size: cover;
+    background-position: bottom;
+    /* background-attachment: fixed; */
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    opacity: 1.5;
+    
+    
+}
+a{
+    text-decoration: none;
+}
+.header-content{
+     margin-bottom: 130px;
+    color:black;
+    top: 0;
+    /* margin-right: 800px; */
+     text-align: center;
+    align-items: normal;
+    opacity: 9;
+    
+     
+    
+}
+.header-content h2{
+    font-size: 5vmin;
+}
+.line{
+    width: 150px;
+    height: 4px;
+    background: crimson;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+.header-content h1{
+    font-size: 7vmin;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.btn{
+    padding: 8px 15px;
+    background: crimson;
+    border-radius: 30px;
+    color: whitesmoke;
+}
+/* navbar */
+.navbar{
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: space-between;
+    padding: 30px;
+    color:whitesmoke;
+}
+.navbar ul li a{
+    color:whitesmoke;
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+
+}
+.nav-links li{
+     margin: 0 30px;
+     font-weight: bold;
+     font-size: 20px;
+}
+ul{
+    list-style: none;
+}
+.active{
+    color: crimson;
+    
+    font-weight: bold;
+    
+    
+    
+    
+}
+/* responsive mobile device */
+@media(max-width:850px) {
+    
+    
+    
+    .navbar{
+        padding:0;
+    }
+    .logo{
+        position: absolute;
+        top: 30px;
+        left: 30px;
+
+    }
+    .nav-links{
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        justify-content: center;
+        background: rgb(78, 78, 177);
+        margin-top: -900px;
+        transition: all 0.1s ease;
+    }
+    .nav-links li{
+        margin: 30px auto;
+
+    }
+    
+        
+        
+
+    
+
+    
+}
+.menu-btn{
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    top: 30px;
+    right: 30px;
+    cursor: pointer;
+    display: none;
+    
+    
+}
+.mobile-menu{
+    margin-top: 0px;
+    border-bottom-right-radius: 12%;
+    
+}
+@media(max-width:850px){
+    .menu-btn{
+        display: block;
+    }
+}
+/* section2 */
+section{
+    width: 80%;
+    margin: 80px auto;
+}
+.title{
+    text-align: center;
+    font-size: 4vmin;
+    color: rgb(24, 24, 73);
+}
+.row{
+    display: grid;
+    /* text-align: center; */
+    width: 90%;
+    grid-template-columns: repeat(auto-fit, minmax(260px,2fr));
+    grid-gap:20px;
+   
+    
+    
+}
+.row .col{
+    
+    
+    height: 400px;
+    position: relative;
+    column-gap: 30px;
+    padding:30px 0 ;
+    
+    
+     
+}
+.img1{
+    width: 305px;
+    height: 200px;
+}
+.col p{
+    text-align: justify;
+    display: inline;
+    font-size: 20px;
+    
+    justify-content: right;
+    width: 30px;
+}
+.col{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: justify;
+    
+}
+.img2{
+    width: 305px;
+    height: 200px;
+}
+.img3{
+    width: 305px;
+    height: 200px;
+} 
+.btn1{
+    padding: 8px 15px;
+    background: crimson;
+    border-radius: 20px;
+    color: whitesmoke;
+    bottom: 10px;
+    display: block;
+    width: 80px;
+} 
+
+/* section3 */
+.explore{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/234/543/684/food-pizza-wallpaper-preview.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    margin-bottom: 10px;
+    
+    
+}
+.explore-content{
+    width: 60%;
+    padding: 50px;
+    color: whitesmoke;
+    align-items: center;
+    flex-direction: column;
+
+}
+.explore-content h1{
+    font-size: 7vmin;
+    margin-bottom: 50px;
+}
+.explore-content p{
+    font-size: 4vmin;
+
+}
+@media(max-width:850px){
+    .explore{
+        width: 100vw;
+        height: 100vh;
+
+    }
+   
+}
+
+ 
+.gallery{
+   text-align: center;
+   font-size: 4vmin;
+   height: -40px;
+    
+
+}
+.line2{
+    width: 150px;
+    height: 6px;
+    background: crimson;
+    margin: 10px auto;
+    border-radius: 5px;
+    
+
+}
+.gal-img1{
+    width: 305px;
+    height: 200px;
+}
+.gal-img2{
+    width: 305px;
+    height: 200px;
+
+}
+.gal-img3{
+    width: 305px;
+    height: 200px;
+
+
+}
+
+.row1{
+    display: grid;
+    /* text-align: center; */
+    width: 90%;
+    grid-template-columns: repeat(auto-fit, minmax(260px,2fr));
+    grid-gap:20px;
+   
+
+}
+.img-col{
+    height: 400px;
+    position: relative;
+    column-gap: 30px;
+    padding:30px 0 ;
+    
+
+}
+
+   
+
+/* section4 */
+.contact-title{
+    /* text-align: center;
+    font-size: 3vmin;
+    margin-top: 1%;
+    position: relative;
+    height: 90px;
+    top: 5px; */
+    text-align: center;
+    
+}
+#contact{
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 13%;
+   
+    align-items: center;
+   
+}
+.iconDiv{
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon{
+    width: 40px;
+    height: 40px;
+    
+    border-radius: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+    background-color: lightblue;
+}
+
+
+
+
+
+
+
+
+
+
+    
+
